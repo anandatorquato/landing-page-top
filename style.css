@@ -1,0 +1,159 @@
+* {
+    font-family: Roboto, sans-serif; 
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#1f2937;
+    color: #f9faf8;
+    padding: 16px 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+.lateral-padding {
+    padding:0 150px
+}
+
+.top-bottom-padding {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.main-info {
+    display: flex;
+    justify-content: space-between;
+    background-color:#1f2937;
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.main-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    padding: 8px 32px;
+    font-weight: 600;
+    border-radius: 8px;
+    border-style: solid;
+}
+
+.button-main {
+    color: #e5e7eb;
+    background-color:#3882f3;
+    border:#3882f3;
+}
+.main-img-box {
+    width: 400px;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.sub-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    color:#1f2937;
+    font-size: 36px;
+}
+.img-boxes {
+    display: flex;
+}
+
+figcaption {
+    color:#1f2937;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.section-quote {
+    background-color: #e5e7eb;
+    color:#1f2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.author {
+    font-weight: bolder;
+    align-self: flex-end;
+}
+
+.newsletter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.news-box {
+    background-color: #3882f3;
+    color:  #e5e7eb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 80px;
+    width: 500px;
+    border-radius: 8px;
+}
+
+.button-news {
+    color: #e5e7eb;
+    background-color: #3882f3;
+    border-color: #e5e7eb;
+}
+
+footer {
+    background-color:#1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 24px;
+
+}
